@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html {
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "poppins", sans-serif;
+  font-size: 1rem;
+}
+
+.logo img {
+  width: 72px;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul {
+  list-style: none;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  text-transform: uppercase;
+}
+
+.primary {
+  background-color: #d01c28;
+  font-size: 16px;
+  color: white;
+  border: none;
+  padding: 6px 16px;
+}
+
+.secondary {
+  background-color: white;
+  font-size: 16px;
+  color: black;
+  border-style: solid;
+  padding: 6px 16px;
+  border: solid;
+  border-width: 1px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+}
+/*MAIN SECTION */
+
+.hero-wrapper {
+  display: flex;
+  flex-direction: row;
+  text-transform: uppercase;
+  padding: 5rem 8rem;
+}
+
+.hero-wrapper h1 {
+  font-size: 6.5rem;
+  line-height: 7rem;
+  padding: 0;
+  margin: 0;
+}
+
+.hero-text {
+  min-width: 31rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.hero-text p {
+  width: 400px;
+}
